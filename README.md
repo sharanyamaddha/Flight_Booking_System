@@ -12,7 +12,9 @@ Below is a brief explanation of all APIs implemented in this project:
 🔹 1. Add Flight Inventory / Schedule (Admin)
 
 POST /api/v1.0/flight/airline/inventory/add
+
 Allows admin to add new flight schedules or airline inventory.
+
 Includes airline name, source, destination, timings, price, and total seats.
 
 🔹 2. Search for Flights
