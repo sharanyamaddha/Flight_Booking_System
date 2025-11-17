@@ -47,7 +47,9 @@ System generates a PNR and stores booking + passenger details.
 🔹 4. View Ticket Details (Using PNR)
 
 GET /api/v1.0/flight/ticket/{pnr}
+
 Fetches a booking based on PNR.
+
 Returns:
 
 Flight details
@@ -61,12 +63,17 @@ Booking status
 🔹 5. View Booking History (Email-based)
 
 GET /api/v1.0/flight/booking/history/{emailId}
+
 Allows users to see all their previous bookings based on email ID.
+
 Useful for tracking past flights.
 
 🔹 6. Cancel a Ticket
 
 DELETE /api/v1.0/flight/booking/cancel/{pnr}
+
 Cancels a booked ticket if it’s within allowed time.
+
 Restores the seats back to the flight.
+
 Updates booking status to CANCELLED.
