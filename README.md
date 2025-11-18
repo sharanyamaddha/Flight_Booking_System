@@ -1,11 +1,11 @@
-✈️**Project Overview**
+**Project Overview**
 
 The Flight Booking System is a Spring Boot REST API application that allows users to search for flights, book tickets, manage passenger information, view booking history, and cancel booked tickets.
 The system also supports admin operations such as adding flight inventory and managing airline schedules.
 It provides a clean, modular backend architecture using Spring Boot, JPA, DTOs, and proper service–controller layers.
 
 
-📌 **API Endpoints Overview**
+ **API Endpoints Overview**
 
 Below is a brief explanation of all APIs implemented in this project:
 
